@@ -6,3 +6,14 @@ In this competition, you’re challenged to analyze a Google Merchandise Store (
 Sep 18
 Explore data and define base function
 
+Oct 4
+feature engineering strategies:    
+1. drop constant features(meanningless for prediction)    
+2. keep intersection features between train and test dataset(make train and test dataset consistent)    
+3. label encode categorical features    
+4. fill na in numerical features as zeros and convert them to float    
+Things to do to improve model performance(advance feature engineering):       
+1. one-hot-encode categorical features(make them as 'dummy' variables)    
+2. normalize numerical features(assumption)    
+3. find smarter way to select features(feature selection techniques such as Foward Selection, model based selection, etc.)    
+4. featrues imputation(add more featrues that compute from one or more featrues)
