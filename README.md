@@ -6,7 +6,7 @@ In this competition, you’re challenged to analyze a Google Merchandise Store (
 Sep 18
 Explore data and define base function
 
-Oct 4
+Oct 4    
 Feature engineering strategies:    
   1. drop constant features(meanningless for prediction)    
   2. keep intersection features between train and test dataset(make train and test dataset consistent)    
