@@ -24,4 +24,4 @@ Things to do to improve model performance(advance feature engineering):
   The competition is based on time series. Figure out the techniques to build model based on time series. 
   
   Oct 9    
-  Based on the other authors' kernel, it is better to divide the task to session level and visitor level. As for session level, it is essential to include the time to next session as a new features, which has been proved useful for the time series prediction task. The rmse of CV score becomes better after features including time to next session. 
+  Based on the other authors' kernel, it is better to divide the task to session level and visitor level. As for session level, it is essential to include the time to next session as a new features, which has been proved useful for the time series prediction task. The rmse of CV score becomes better after features including time to next session. (the new solutions are included in 'xgb_lgbm.ipynb')
