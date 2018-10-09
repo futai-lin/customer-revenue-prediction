@@ -20,7 +20,8 @@ Things to do to improve model performance(advance feature engineering):
   4. featrues imputation(add more featrues that compute from one or more featrues)
   
   Oct 8    
-  The competition is based on time series. Figure out the techniques to build model based on time series
+  As for solutions that were came up with on Oct 4, the one-hot-encode method seems not good because it will lead to curse of dimension due to the large amount of categories under categorical columns. Applying normalization does not improve the result very well.    
+  The competition is based on time series. Figure out the techniques to build model based on time series. 
   
   Oct 9    
   Based on the other authors' kernel, it is better to divide the task to session level and visitor level. As for session level, it is essential to include the time to next session as a new features, which has been proved useful for the time series prediction task. The rmse of CV score becomes better after features including time to next session. 
