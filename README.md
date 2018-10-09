@@ -18,3 +18,6 @@ Things to do to improve model performance(advance feature engineering):
   2. normalize numerical features(assumption)    
   3. find smarter way to select features(feature selection techniques such as Foward Selection, model based selection, etc.)  
   4. featrues imputation(add more featrues that compute from one or more featrues)
+  
+  Oct 8
+  The competition is based on time series. Figure out the techniques to build model based on time series
