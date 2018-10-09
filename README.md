@@ -19,5 +19,8 @@ Things to do to improve model performance(advance feature engineering):
   3. find smarter way to select features(feature selection techniques such as Foward Selection, model based selection, etc.)  
   4. featrues imputation(add more featrues that compute from one or more featrues)
   
-  Oct 8
+  Oct 8    
   The competition is based on time series. Figure out the techniques to build model based on time series
+  
+  Oct 9
+  Based on the other authors' kernel, it is better to divide the task to session level and visitor level. As for session level, it is essential to include the time to next session as a new features, which has been proved useful for the time series prediction task. The rmse of CV score becomes better after features including time to next session. 
